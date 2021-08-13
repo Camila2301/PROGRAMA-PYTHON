@@ -1,0 +1,14 @@
+n  = int(input("Ingrese valor n: "))
+
+previo1 = 1
+previo2 = 1
+
+if n >= 2:
+    for i in range(2,n+1):
+        temp = previo1
+        previo1 = previo1 + previo2
+        previo2 = temp
+aurea = 1.618033988749894848204586834365638
+cociFibo = previo1/previo2
+print("Número aurea:",1.618033988749894848204586834365638)
+print("fibo(n+1)/fibo(n): ",previo1/previo2)
