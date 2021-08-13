@@ -1,13 +1,28 @@
-n  = int(input("Ingrese valor n: "))
+# Este codigo calcula e imprime **
+# la razon aurea **
+# *****************************************
+# Parametros de entredad: **
+# N = el numero de veces que se va repetir el codigo **
+# para que la razon aurea sea mas exacta **
+# *****************************************
+# Autor: Maria Camila Vargas  **
+# ULTIMA ACTUALIZACION: 12 de agosto / 2021 **
 
-previo1 = 1
-previo2 = 1
 
-if n >= 2:
-    for i in range(2,n+1):
-        temp = previo1
-        previo1 = previo1 + previo2
-        previo2 = temp
+
+
+
+
+n  = int(input("Ingrese valor n: ")) #
+
+previo1 = 1 #
+previo2 = 1 #
+
+if n >= 2: #
+    for i in range(2,n+1): #
+        temp = previo1 #
+        previo1 = previo1 + previo2 #
+        previo2 = temp #
 aurea = 1.618033988749894848204586834365638
 cociFibo = previo1/previo2
 print("Número aurea:",1.618033988749894848204586834365638)
