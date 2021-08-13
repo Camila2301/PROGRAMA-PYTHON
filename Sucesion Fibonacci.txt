@@ -1,0 +1,19 @@
+n  = int(input("Ingrese valor n: "))
+
+previo1 = 1
+previo2 = 1
+
+if n >= 2:
+    print(0)
+    print(1)
+    print(1)
+    for i in range(2,n):
+        temp = previo1
+        previo1 = previo1 + previo2
+        previo2 = temp
+        print(previo1)
+elif n == 0:
+    print(n)
+elif n==1:
+    print(0)
+    print(1)
