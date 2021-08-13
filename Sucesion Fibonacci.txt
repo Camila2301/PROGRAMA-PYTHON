@@ -1,17 +1,28 @@
-n  = int(input("Ingrese valor n: "))
+# Este codigo calcula e imprime **
+# los N numeros de la sucesion de fibonacci **
+# ******************************************
+# Parametros de entredad: **
+# N = cantidad de N numeros de la sucesion a imprimir **
+# ******************************************
+# Autor: Maria Camila Vargas Giraldo **
+# ULTIMA ACTUALIZACION: 12 de agosto / 2021 **
 
-previo1 = 1
-previo2 = 1
 
-if n >= 2:
-    print(0)
-    print(1)
-    print(1)
-    for i in range(2,n):
-        temp = previo1
-        previo1 = previo1 + previo2
-        previo2 = temp
-        print(previo1)
+
+n  = int(input("Ingrese valor n: ")) #El INPUT LO GENERE PARA PEDIR EL N NUMEROS DE LA SUCESSION
+
+previo1 = 1 #DAMOS UN VALOR AL PRIMERO
+previo2 = 1 #DAMOS UN VALOR AL SEGUNDO
+
+if n >= 2:  #
+    print(0) # 
+    print(1) #
+    print(1) #
+    for i in range(2,n): #
+        temp = previo1 #
+        previo1 = previo1 + previo2 #
+        previo2 = temp #
+        print(previo1) #
 elif n == 0:
     print(n)
 elif n==1:
