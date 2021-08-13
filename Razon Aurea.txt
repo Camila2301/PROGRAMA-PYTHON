@@ -13,10 +13,10 @@
 
 
 
-n  = int(input("Ingrese valor n: ")) #
+n  = int(input("Ingrese valor n: ")) #EL INPUT LO GENERE PARA PEDIR EL N NUMEROS DE LA SUCESSION
 
-previo1 = 1 #
-previo2 = 1 #
+previo1 = 1 #VAMOS A DARLE VALOR AL PRIMER
+previo2 = 1 #VAMOS A DARLE VALOR AL SEGUNDO
 
 if n >= 2: #
     for i in range(2,n+1): #
