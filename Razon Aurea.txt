@@ -1,12 +1,13 @@
-# >>> Este codigo calcula e imprime 
-# >>> la razon aurea 
+# " " " Este codigo calcula e imprime " " " 
 
-# >>> Parametros de entredad: 
-# >>> N = el numero de veces que se va repetir el codigo 
-# >>> para que la razon aurea sea mas exacta 
+# " " " la razon aurea " " " 
 
-# >>> Autor: Maria Camila Vargas  
-# >>> ULTIMA ACTUALIZACION: 18 de agosto / 2021 
+# " " "  Parametros de entredad: " " " 
+# " " "  N = el numero de veces que se va repetir el codigo " " " 
+# " " "  para que la razon aurea sea mas exacta " " " 
+
+# " " "  Autor: Maria Camila Vargas  " " " 
+# " " "  ULTIMA ACTUALIZACION: 18 de agosto / 2021 " " " 
 
 
 n  = int(input("Ingrese valor n: ")) # Variable n que guarda la cantidad de iteraciones fibonacci a calcular, es ingresado por el usuario
