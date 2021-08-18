@@ -1,11 +1,11 @@
-# Este codigo calcula e imprime **
-# los N numeros de la sucesion de fibonacci **
-# ******************************************
-# Parametros de entredad: **
-# N = cantidad de N numeros de la sucesion a imprimir **
-# ******************************************
-# Autor: Maria Camila Vargas Giraldo **
-# ULTIMA ACTUALIZACION: 12 de agosto / 2021 **
+# >>> Este codigo calcula e imprime
+# >>> los N numeros de la sucesion de fibonacci 
+
+# >>> Parametros de entredad: 
+# >>> N = cantidad de N numeros de la sucesion a imprimir
+
+# >>> Autor: Maria Camila Vargas Giraldo 
+# >>> ULTIMA ACTUALIZACION: 18 de agosto / 2021 
 
 
 n  = int(input("Ingrese valor n: ")) # Variable n que guarda la cantidad de números de la sucesión a calcular, es ingresado por el usuario
